@@ -156,9 +156,7 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
  </details>
 
 
-#### Queues
-
-1. **Message Queues**
+#### Message Queues
 
  Queues are often used to create "buffers" that temporarily store data from one part of a program until another part of a program can process the data. This is common with asynchronous data transfer and with mismatches between how often data is sent and how often it can be processed.
 
