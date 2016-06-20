@@ -117,11 +117,9 @@ Would you use a stack or a queue to...
 1. ... display *only* the 10 most recent messages a user posted, in the order they were posted?
 
 
-#### Stacks
+#### The Call Stack
 
-1. **The Call Stack**
-
- Most programming languages rely on something called the "call stack," especially for recursion. The call stack keeps track of function calls that are in the process of executing.  When a function is called, it's `push`ed onto the call stack. When the function returns, it's `pop`ed off of the stack.
+ Many processors and programming languages rely on something called the "call stack," especially for recursion. The call stack keeps track of function calls that are in the process of executing and where each function should "return" to.  When a function is called, it's `push`ed onto the call stack. When the function returns, it's `pop`ed off of the stack. Actual call stacks are a little more complex, but you can think of the call stack as just storing function calls. 
 
  Here's a recursive `factorial` function:
 
