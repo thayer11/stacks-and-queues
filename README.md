@@ -22,6 +22,12 @@ OK, now our variables are saved.  Now all Ruby or Javascript needs to do is crea
 
 Stacks and queues are two commonly used data structures.  You can read about them below or watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI). If you watch the video, note that all the operations mentioned take O(1) time.  What does that mean?  No matter how big your stack or queue gets (that's n), the operations in the video, and the operations we'll focus on below, take the same amount of time. The time needed DOES NOT depend on the number of things in the stack, so it's constant, O(1) time.
 
+## Objectives:
+
+* **Describe** stacks and queues
+* **Pseudo-code** a stack and a queue
+* **Solve** interview questions with stacks and queues
+
 ##Stacks
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/2000px-Data_stack.svg.png" width="400px" alt="stack image with push and pop">
