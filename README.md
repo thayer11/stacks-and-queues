@@ -190,3 +190,4 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
 ###Further Resources
 
 * [Call Stack in JS Explained](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+* [Understanding Memory Addresses](http://computer.howstuffworks.com/c23.htm)
