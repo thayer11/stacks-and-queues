@@ -1,3 +1,23 @@
+<!--Hook: Raise your hand if you love binary.  For those who didn't raise your hand, I have bad news for you: you'll probably have to know it to get through interviews anyway.  I have certainly been asked this exact question in an interview: "What is 2^32?"  Hopefully your interviewers will be a little more problem-solving centric, but I can almost guarantee you that the math you will see in an interview will have something to do with that.  We're about to look at one of the big applications: memory storage.  -->
+
+<!-- There will be some hints below.  I cannot stress enough that you don't look at those hints until after we've come together as a class.  We're going to think about it individually, in pairs, and then finally as a class, and seeing an answer would ruin the process. -->
+
+<!-- Draw up four bytes of 0s and 1, label the starting points 0x0, 0x8, 0xf, 0xf8, 0xff-->
+
+<!-- Try to get students to answer as many of these as possible:
+
+1) Start with all 0s -- blank memory (remember, 0 = nothing = false, 1 = something = true)
+2) What would 0 be in 8-digit binary?
+2) What would 255 be?
+3) What would 4 be?
+4) What would 5 be?
+5) Write up var big_number = 232, var middle_number = 123, var small_number = 31, have students write out the binary for each
+6) Put big_number at 0x0, middle_number at 0xf, small_number at 0xf8
+
+OK, now our variables are saved.  Now all Ruby or Javascript needs to do is create a table: big_number: 0x0, middle_number: 0xf, etc.  So I'm looking for small_number, that's 0xf8, so my computer returns what number?
+
+-->
+
 # Data Structures: Stacks and Queues
 
 Stacks and queues are two commonly used data structures.  You can read about them below or watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI). If you watch the video, note that all the operations mentioned take O(1) time.  What does that mean?  No matter how big your stack or queue gets (that's n), the operations in the video, and the operations we'll focus on below, take the same amount of time. The time needed DOES NOT depend on the number of things in the stack, so it's constant, O(1) time.
@@ -100,8 +120,7 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
 
  </details>
 
-
-
+<!--Catch phrase with Stack, Push, Pop, Queue, Enqueue, Dequeue -->
 
 ## Challenges
 
@@ -162,8 +181,12 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
 
  We'll think of a scenario where restaurant diners order food faster than the chefs can cook it.  
 
- 1. Describe how you would use a queue help the chef keep track of meals to make.  
+ 1. Describe how you would use a queue to help the chef keep track of meals to make.  
 
  1. What should the chef do when the queue is empty?
 
  1. How would you distribute orders if there are 3 chefs?
+
+###Further Resources
+
+* [Call Stack in JS Explained](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
